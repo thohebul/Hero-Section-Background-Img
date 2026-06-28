@@ -1,0 +1,44 @@
+/* Basic SetUp */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 15px;
+    background-image: linear-gradient(rgba(143, 74, 74, 0.5), rgb(0, 0, 0, .8)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYPtGAhtPYZQRsYGo7K1WlYzRX0B4SohsCv6dJLWaDZQ&s=10);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 50px;
+    color: rgb(235, 201, 11);
+    margin-top: -20px;
+}
+
+.container p {
+    font-size: 30px;
+    margin: 10px;
+    color: rgb(6, 175, 15);
+}
+
+.container button {
+    font-size: 25px;
+    background: yellowgreen;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+button:hover {
+    background: yellow;
+    color: brown;
+    cursor: pointer;
+    transition: 0.5s;
+}
